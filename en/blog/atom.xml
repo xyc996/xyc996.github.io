@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xyc996.github.io/en/blog</id>
+    <title>xyc996 Blog</title>
+    <updated>2025-05-29T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://xyc996.github.io/en/blog"/>
+    <subtitle>xyc996 Blog</subtitle>
+    <icon>https://xyc996.github.io/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[初始练习]]></title>
+        <id>https://xyc996.github.io/en/blog/greetings</id>
+        <link href="https://xyc996.github.io/en/blog/greetings"/>
+        <updated>2025-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。]]></summary>
+        <content type="html"><![CDATA[<p>如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。</p>]]></content>
+        <author>
+            <name>Mr.Liu</name>
+            <uri>https://github.com/xyc996</uri>
+        </author>
+        <category label="Python" term="Python"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Greetings!]]></title>
+        <id>https://xyc996.github.io/en/blog/greetings</id>
+        <link href="https://xyc996.github.io/en/blog/greetings"/>
+        <updated>2025-05-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Congratulations, you have made your first post!]]></summary>
+        <content type="html"><![CDATA[<p>如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。</p>]]></content>
+        <author>
+            <name>Mr.Liu</name>
+            <uri>https://github.com/xyc996</uri>
+        </author>
+        <category label="Python" term="Python"/>
+    </entry>
+</feed>

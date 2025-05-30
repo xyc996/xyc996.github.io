@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>xyc996 Blog</title>
+        <link>https://xyc996.github.io/en/blog</link>
+        <description>xyc996 Blog</description>
+        <lastBuildDate>Thu, 29 May 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[初始练习]]></title>
+            <link>https://xyc996.github.io/en/blog/greetings</link>
+            <guid>https://xyc996.github.io/en/blog/greetings</guid>
+            <pubDate>Thu, 29 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。]]></description>
+            <content:encoded><![CDATA[<p>如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。</p>]]></content:encoded>
+            <category>Python</category>
+        </item>
+        <item>
+            <title><![CDATA[Greetings!]]></title>
+            <link>https://xyc996.github.io/en/blog/greetings</link>
+            <guid>https://xyc996.github.io/en/blog/greetings</guid>
+            <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Congratulations, you have made your first post!]]></description>
+            <content:encoded><![CDATA[<p>如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。</p>]]></content:encoded>
+            <category>Python</category>
+        </item>
+    </channel>
+</rss>
