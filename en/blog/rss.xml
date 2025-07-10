@@ -18,12 +18,12 @@
             <category>Python</category>
         </item>
         <item>
-            <title><![CDATA[Greetings!]]></title>
-            <link>https://xyc996.github.io/en/blog/greetings</link>
-            <guid>https://xyc996.github.io/en/blog/greetings</guid>
+            <title><![CDATA[欢迎交流学习经验！]]></title>
+            <link>https://xyc996.github.io/en/blog/欢迎投稿</link>
+            <guid>https://xyc996.github.io/en/blog/欢迎投稿</guid>
             <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Congratulations, you have made your first post!]]></description>
-            <content:encoded><![CDATA[<p>如果你已经掌握了 Python 的基础语法，如变量的命名和赋值、几种基本的数据类型、3 种流程控制结构和它们对应的代码、函数的调用和自定义函数的使用，那么你可以试试课本上第三章的案例。尝试理解这些案例并新建一个文件来尝试输入这些代码并运行查看结果。以此来巩固你的基础。</p>]]></content:encoded>
+            <description><![CDATA[学而不思则罔，思而不学则殆。如果你勤学善思，在学的过程中总结出了一些经验、技巧，不妨给我们投稿。经审阅有分享价值的，我会帮你发布在 文章栏目，供大家学习，并署上你的大名。心动不如行动，快开始准备吧。]]></description>
+            <content:encoded><![CDATA[<p>学而不思则罔，思而不学则殆。如果你勤学善思，在学的过程中总结出了一些经验、技巧，不妨给我们投稿。经审阅有分享价值的，我会帮你发布在 <code>文章</code>栏目，供大家学习，并署上你的大名。心动不如行动，快开始准备吧。</p>]]></content:encoded>
             <category>Python</category>
         </item>
     </channel>
