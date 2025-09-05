@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-Python基础/python知识点练习" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.1">
+<title data-rh="true">python知识点练习 | xyc996</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://xyc996.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://xyc996.github.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://xyc996.github.io/docs/Python基础/python知识点练习"><meta data-rh="true" property="og:locale" content="zh"><meta data-rh="true" property="og:locale:alternate" content="en"><meta data-rh="true" name="docusaurus_locale" content="zh"><meta data-rh="true" name="docsearch:language" content="zh"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="python知识点练习 | xyc996"><meta data-rh="true" name="description" content="高中Python程序设计基础复习课"><meta data-rh="true" property="og:description" content="高中Python程序设计基础复习课"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://xyc996.github.io/docs/Python基础/python知识点练习"><link data-rh="true" rel="alternate" href="https://xyc996.github.io/docs/Python基础/python知识点练习" hreflang="zh"><link data-rh="true" rel="alternate" href="https://xyc996.github.io/en/docs/Python基础/python知识点练习" hreflang="en"><link data-rh="true" rel="alternate" href="https://xyc996.github.io/docs/Python基础/python知识点练习" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Python基础","item":"https://xyc996.github.io/docs/category/python基础"},{"@type":"ListItem","position":2,"name":"python知识点练习","item":"https://xyc996.github.io/docs/Python基础/python知识点练习"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="xyc996 RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="xyc996 Atom Feed"><link rel="stylesheet" href="/assets/css/styles.bc03004f.css">
+<script src="/assets/js/runtime~main.0c150fe1.js" defer="defer"></script>
+<script src="/assets/js/main.8f66be14.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="跳到主要内容"><a class="skipToContent_gLX_" href="#__docusaurus_skipToContent_fallback">跳到主要内容</a></div><nav aria-label="主导航" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="切换导航栏" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="XYC Logo" class="themedComponent_vraQ themedComponent--light_j3Ea"><img src="/img/logo.svg" alt="XYC Logo" class="themedComponent_vraQ themedComponent--dark_waYW"></div><b class="navbar__title text--truncate">XYC996</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/总览">基础指引</a><a class="navbar__item navbar__link" href="/blog">文章</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><div class="toggle_lZZy colorModeToggle_A9qr"><button class="clean-btn toggleButton_vyNE toggleButtonDisabled_VAzu" type="button" disabled="" title="system mode" aria-label="切换浅色/暗黑模式（当前为system mode）"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_BZFv lightToggleIcon_fNIl"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_BZFv darkToggleIcon_ffol"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_BZFv systemToggleIcon_KiwW"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Lqkd"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_rH5b"><div class="docsWrapper_wgem"><button aria-label="回到顶部" class="clean-btn theme-back-to-top-button backToTopButton_WMgC" type="button"></button><div class="docRoot_J8Xx"><aside class="theme-doc-sidebar-container docSidebarContainer__Qlb"><div class="sidebarViewport_Vsbe"><div class="sidebar_eH7u"><nav aria-label="文档侧边栏" class="menu thin-scrollbar menu_vIUU"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/总览">总览</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/docs/category/python基础">Python基础</a><button aria-label="折叠侧边栏分类 &#x27;Python基础&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/docs/Python基础/准备工作和环境搭建">准备工作和环境搭建</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/docs/Python基础/python知识点练习">python知识点练习</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/category/wps基础">WPS基础</a><button aria-label="展开侧边栏分类 &#x27;WPS基础&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li></ul></nav></div></div></aside><main class="docMainContainer_m8q4"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_FBPg"><div class="docItemContainer_jHXS"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_kr6n" aria-label="页面路径"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="主页面" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_OTU7"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item"><a class="breadcrumbs__link" href="/docs/category/python基础"><span>Python基础</span></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">python知识点练习</span></li></ul></nav><div class="tocCollapsible_GxtX theme-doc-toc-mobile tocMobile__JsY"><button type="button" class="clean-btn tocCollapsibleButton_P8Mb">本页总览</button></div><div class="theme-doc-markdown markdown"><header><h1>python知识点练习</h1></header><h3 class="anchor anchorWithStickyNavbar_vfVd" id="高中python程序设计基础复习课"><strong>高中Python程序设计基础复习课</strong><a href="#高中python程序设计基础复习课" class="hash-link" aria-label="高中python程序设计基础复习课的直接链接" title="高中python程序设计基础复习课的直接链接">​</a></h3>
+<p><strong>授课老师:</strong> [Mr.Liu]
+<strong>日期:</strong> [授课日期]</p>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_vfVd" id="第一部分课程目标与热身"><strong>第一部分：课程目标与热身</strong><a href="#第一部分课程目标与热身" class="hash-link" aria-label="第一部分课程目标与热身的直接链接" title="第一部分课程目标与热身的直接链接">​</a></h4>
+<p><strong>1. 目标</strong></p>
+<ul>
+<li>回顾Python核心语法与概念</li>
+<li>巩固程序三种基本结构：顺序、分支、循环</li>
+<li>熟练掌握函数的使用</li>
+<li>理解并会使用常见数据结构：列表、字典</li>
+<li>能够编写解决简单问题的代码</li>
+</ul>
+<p><strong>2. 热身思考：什么是程序？</strong>
+程序 = <strong>数据结构</strong> + <strong>算法</strong></p>
+<ul>
+<li><strong>数据结构</strong> ：如何把数据在计算机中组织、存储。例如：变量、列表、字典。</li>
+<li><strong>算法</strong> ：解决问题的具体步骤和流程。例如：先判断再计算，循环处理等。</li>
+</ul>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_vfVd" id="第二部分核心知识点回顾"><strong>第二部分：核心知识点回顾</strong><a href="#第二部分核心知识点回顾" class="hash-link" aria-label="第二部分核心知识点回顾的直接链接" title="第二部分核心知识点回顾的直接链接">​</a></h4>
+<p><strong>1. 变量与数据类型</strong></p>
+<ul>
+<li><strong>变量</strong> ：数据的载体，如 <code>name = &quot;小明&quot;</code></li>
+<li><strong>基本数据类型</strong> :</li>
+<li><strong>整型 (int)</strong> : <code>age = 18</code></li>
+<li><strong>浮点型 (float)</strong> : <code>height = 1.75</code></li>
+<li><strong>字符串 (str)</strong> ：<code>greeting = &quot;Hello&quot;</code></li>
+<li><strong>布尔型 (bool)</strong> ：<code>is_pass = True</code>, <code>is_rain = False</code></li>
+</ul>
+<p><strong>课堂练习1：变量声明</strong>
+请声明变量存储以下信息：</p>
+<ul>
+<li>你的姓名</li>
+<li>你的年龄</li>
+<li>你的数学成绩（98.5分）</li>
+<li>你是否喜欢编程</li>
+</ul>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain"># 示例答案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">name = &quot;李华&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">age = 17</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">math_score = 98.5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">love_coding = True</span><br></span></code></pre></div></div>
+<hr>
+<p><strong>2. 输入与输出</strong></p>
+<ul>
+<li>
+<p><strong>输出：<code>print()</code></strong>
+<strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">print(&quot;Hello, World!&quot;) # 输出字符串</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">print(name)            # 输出变量</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">print(&quot;姓名：&quot;, name, &quot;年龄：&quot;, age) # 输出多个内容</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p><strong>输入：<code>input()</code></strong> ( <em><strong>永远返回字符串类型</strong></em> )
+<strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">your_name = input(&quot;请输入你的名字：&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># 如果需要数字，必须进行类型转换</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">your_age = int(input(&quot;请输入你的年龄：&quot;))</span><br></span></code></pre></div></div>
+</li>
+</ul>
+<p><strong>课堂练习2：交互程序</strong>
+编写一个程序，询问用户喜欢的水果，并打印出来。</p>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain"># 示例答案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">fruit = input(&quot;请问你最喜欢吃什么水果？&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">print(&quot;哇，原来你喜欢吃&quot;, fruit, &quot;！&quot;)</span><br></span></code></pre></div></div>
+<hr>
+<p><strong>3. 运算符</strong></p>
+<ul>
+<li><strong>算术运算符</strong> ：<code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, <code>//</code> (整除), <code>%</code> (取余), <code>**</code> (幂)</li>
+<li><strong>比较运算符</strong> ：<code>==</code>, <code>!=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code> (返回值是Bool类型)</li>
+<li><strong>逻辑运算符</strong> ：<code>and</code>, <code>or</code>, <code>not</code> (操作Bool类型，返回值也是Bool类型)</li>
+</ul>
+<hr>
+<p><strong>4. 程序的三大控制结构</strong></p>
+<p><strong>a. 顺序结构</strong>
+程序默认从上到下逐行执行。</p>
+<p><strong>b. 分支结构 (<code>if</code>, <code>elif</code>, <code>else</code>)</strong></p>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">score = int(input(&quot;请输入成绩：&quot;))</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">if score &gt;= 90:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;优秀&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">elif score &gt;= 70: # 70 &lt;= score &lt; 90</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;良好&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">elif score &gt;= 60:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;及格&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">else:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;不及格，要加油了！&quot;)</span><br></span></code></pre></div></div>
+<p><strong>c. 循环结构</strong></p>
+<ul>
+<li><strong><code>for</code> 循环</strong> ：已知循环次数，遍历序列
+<strong>python</strong></li>
+</ul>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">  # 打印 0到4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  for i in range(5):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      print(i)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  # 遍历列表</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  fruits = [&quot;苹果&quot;, &quot;香蕉&quot;, &quot;橘子&quot;]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  for fruit in fruits:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      print(&quot;我喜欢吃&quot;, fruit)</span><br></span></code></pre></div></div>
+<ul>
+<li><strong><code>while</code> 循环</strong> ：条件满足就一直循环
+<strong>python</strong></li>
+</ul>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">  count = 0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  while count &lt; 5:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      print(&quot;Count is&quot;, count)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      count += 1 # 千万别忘了修改条件变量，否则会死循环！</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  # 另一个例子</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  password = &quot;&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  while password != &quot;123456&quot;: # 当密码不是&quot;123456&quot;时，就一直循环</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      password = input(&quot;请输入密码：&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  print(&quot;登录成功！&quot;)</span><br></span></code></pre></div></div>
+<ul>
+<li><strong>循环控制</strong> :</li>
+<li><code>break</code>：立即跳出整个循环</li>
+<li><code>continue</code>：跳过本次循环的剩余语句，直接进入下一次循环</li>
+</ul>
+<p><strong>课堂练习3：猜数字游戏</strong>
+编写一个猜数字的小游戏，数字为1-10之间的一个随机整数，给用户最多3次机会。</p>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain"># 示例答案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">import random</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">secret_num = random.randint(1, 10)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">guess_count = 0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">max_attempts = 3</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">while guess_count &lt; max_attempts:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    guess = int(input(&quot;请猜一个1-10的数字：&quot;))</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    guess_count += 1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    if guess == secret_num:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;恭喜你，猜对了！&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        break</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    elif guess &lt; secret_num:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;猜小了&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    else:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;猜大了&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    if guess_count == max_attempts:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;机会用完了，秘密数字是：&quot;, secret_num)</span><br></span></code></pre></div></div>
+<hr>
+<p><strong>5. 数据结构</strong></p>
+<p><strong>a. 列表 (List)</strong> - 有序的集合</p>
+<ul>
+<li><strong>创建</strong> : <code>list1 = [1, 2, 3, &#x27;a&#x27;]</code></li>
+<li><strong>索引</strong> : <code>list1[0]</code> -&gt; <code>1</code>, <code>list1[-1]</code> -&gt; <code>&#x27;a&#x27;</code></li>
+<li><strong>切片</strong> : <code>list1[1:3]</code> -&gt; <code>[2, 3]</code></li>
+<li><strong>常用方法</strong> :</li>
+<li><code>.append(x)</code> 在末尾添加元素</li>
+<li><code>.pop()</code> 删除末尾元素</li>
+<li><code>.index(x)</code> 查找x的索引</li>
+<li><code>len(list1)</code> 获取列表长度</li>
+</ul>
+<p><strong>b. 字典 (Dict)</strong> - 键值对的集合</p>
+<ul>
+<li><strong>创建</strong> : <code>student = {&#x27;name&#x27;: &#x27;张三&#x27;, &#x27;age&#x27;: 18, &#x27;score&#x27;: 90}</code></li>
+<li><strong>访问</strong> : <code>student[&#x27;name&#x27;]</code> -&gt; <code>&#x27;张三&#x27;</code></li>
+<li><strong>常用方法</strong> :</li>
+<li><code>.keys()</code> 获取所有键</li>
+<li><code>.values()</code> 获取所有值</li>
+<li><code>.items()</code> 获取所有键值对</li>
+<li><code>dict.get(key, default)</code> 安全获取值，如果key不存在返回default</li>
+</ul>
+<p><strong>课堂练习4：学生信息管理</strong>
+创建一个列表，里面存储两个学生的字典信息（包含姓名、年龄），并打印出所有学生的姓名。</p>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain"># 示例答案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">students = [</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    {&quot;name&quot;: &quot;Alice&quot;, &quot;age&quot;: 18},</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    {&quot;name&quot;: &quot;Bob&quot;, &quot;age&quot;: 17}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">for student in students:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(student[&quot;name&quot;])</span><br></span></code></pre></div></div>
+<hr>
+<p><strong>6. 函数 (Function)</strong> - 代码的封装</p>
+<ul>
+<li><strong>作用</strong> ：复用代码，简化逻辑，模块化编程</li>
+<li><strong>定义</strong> :
+<strong>python</strong></li>
+</ul>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">  def greet(name): # name是形参</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      &quot;&quot;&quot;这是一个问候函数（文档字符串）&quot;&quot;&quot;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      print(&quot;Hello,&quot;, name)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      return None # 默认返回None</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  # 调用函数</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  greet(&quot;World&quot;) # &quot;World&quot;是实参</span><br></span></code></pre></div></div>
+<ul>
+<li><strong>带返回值的函数</strong> :
+<strong>python</strong></li>
+</ul>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">  def add(a, b):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      result = a + b</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      return result # 使用return返回结果</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  sum_result = add(5, 3)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  print(sum_result) # 输出 8</span><br></span></code></pre></div></div>
+<p><strong>课堂练习5：编写函数</strong>
+编写一个函数 <code>is_even(num)</code>，判断一个数字是否为偶数，返回布尔值。</p>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain"># 示例答案</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">def is_even(num):</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    if num % 2 == 0:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return True</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    else:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        return False</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    # 或者更简洁的写法: return num % 2 == 0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">print(is_even(4)) # True</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">print(is_even(5)) # False</span><br></span></code></pre></div></div>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_vfVd" id="第三部分综合实战"><strong>第三部分：综合实战</strong><a href="#第三部分综合实战" class="hash-link" aria-label="第三部分综合实战的直接链接" title="第三部分综合实战的直接链接">​</a></h4>
+<p><strong>题目：简易学生成绩管理系统</strong>
+请编写一个程序，实现以下功能：</p>
+<ol>
+<li>
+<p>提供一个循环操作菜单：
+<strong>text</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">1. 添加学生成绩</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2. 查看所有学生成绩</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3. 查询平均分</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4. 退出</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p>选择 <code>1</code>，可以输入学生姓名和成绩，并存储起来。</p>
+</li>
+<li>
+<p>选择 <code>2</code>，可以打印出所有学生的姓名和成绩。</p>
+</li>
+<li>
+<p>选择 <code>3</code>，可以计算并打印出所有学生的平均分。</p>
+</li>
+<li>
+<p>选择 <code>4</code>，退出程序。</p>
+</li>
+</ol>
+<p><strong>(思考时间，然后老师带领一起实现)</strong></p>
+<p><strong>python</strong></p>
+<div class="language-text codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-text codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain"># 示例答案框架</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">students = [] # 用一个空列表存储所有学生数据（字典）</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">while True:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;\n--- 学生成绩管理系统 ---&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;1. 添加学生成绩&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;2. 查看所有学生成绩&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;3. 查询平均分&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    print(&quot;4. 退出&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    choice = input(&quot;请选择操作 (1/2/3/4): &quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    if choice == &#x27;1&#x27;:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        name = input(&quot;请输入学生姓名: &quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        score = float(input(&quot;请输入学生成绩: &quot;))</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        student = {&quot;name&quot;: name, &quot;score&quot;: score}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        students.append(student)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;添加成功！&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    elif choice == &#x27;2&#x27;:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        if len(students) == 0:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            print(&quot;暂无学生数据！&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        else:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            print(&quot;\n姓名\t成绩&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            for s in students:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                print(f&quot;{s[&#x27;name&#x27;]}\t{s[&#x27;score&#x27;]}&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    elif choice == &#x27;3&#x27;:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        if len(students) == 0:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            print(&quot;暂无学生数据，无法计算平均分！&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        else:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            total = 0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            for s in students:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">                total += s[&#x27;score&#x27;]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            average = total / len(students)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">            print(f&quot;平均分为: {average:.2f}&quot;) # :.2f 表示保留两位小数</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    elif choice == &#x27;4&#x27;:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;感谢使用，再见！&quot;)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        break</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    else:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">        print(&quot;输入有误，请重新选择！&quot;)</span><br></span></code></pre></div></div>
+<hr>
+<h4 class="anchor anchorWithStickyNavbar_vfVd" id="第四部分总结与备考建议"><strong>第四部分：总结与备考建议</strong><a href="#第四部分总结与备考建议" class="hash-link" aria-label="第四部分总结与备考建议的直接链接" title="第四部分总结与备考建议的直接链接">​</a></h4>
+<p><strong>1. 知识体系总结</strong></p>
+<ul>
+<li><strong>基础</strong> ：变量、数据类型、输入输出</li>
+<li><strong>结构</strong> ：顺序、分支(<code>if</code>)、循环(<code>for</code>/<code>while</code>)</li>
+<li><strong>数据</strong> ：列表(<code>list</code>)、字典(<code>dict</code>)</li>
+<li><strong>封装</strong> ：函数(<code>def</code>)</li>
+</ul>
+<p><strong>2. 编程思维培养</strong></p>
+<ul>
+<li><strong>拆解问题</strong> ：将大问题分解成多个小步骤</li>
+<li><strong>模式识别</strong> ：发现重复操作，用循环解决</li>
+<li><strong>抽象</strong> ：使用函数和数据结构来组织代码</li>
+</ul>
+<p><strong>3. 备考与练习建议</strong></p>
+<ul>
+<li><strong>多读代码</strong> ：理解别人的编程思路。</li>
+<li><strong>多敲代码</strong> ：亲自动手调试，解决错误（Bug）是最好的学习。</li>
+<li><strong>刷经典题</strong> ：如斐波那契数列、判断质数、排序、查找等。</li>
+<li><strong>注意细节</strong> ：缩进、冒号、英文符号、拼写错误是常见失分点。</li>
+</ul>
+<p><strong>祝大家复习顺利，考试成功！</strong></p></div></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="文件选项卡"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/Python基础/准备工作和环境搭建"><div class="pagination-nav__sublabel">上一页</div><div class="pagination-nav__label">准备工作和环境搭建</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/category/wps基础"><div class="pagination-nav__sublabel">下一页</div><div class="pagination-nav__label">WPS基础</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_Lkgd thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#高中python程序设计基础复习课" class="table-of-contents__link toc-highlight"><strong>高中Python程序设计基础复习课</strong></a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/总览">开始学习</a></li><li class="footer__item"><a href="mailto:scrcpy@foxmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">向我求助 or 文章投稿</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title"></div><ul class="footer__items clean-list"></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 XYC996, Inc. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
