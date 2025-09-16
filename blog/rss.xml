@@ -9,10 +9,21 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <item>
-            <title><![CDATA[使用qrcode生成二维码]]></title>
-            <link>https://xyc996.github.io/blog/使用qrcode生成二维码</link>
-            <guid>https://xyc996.github.io/blog/使用qrcode生成二维码</guid>
+            <title><![CDATA[使用qrcode库生成二维码]]></title>
+            <link>https://xyc996.github.io/blog/生成二维码</link>
+            <guid>https://xyc996.github.io/blog/生成二维码</guid>
             <pubDate>Tue, 16 Sep 2025 09:21:18 GMT</pubDate>
+            <description><![CDATA[使用pip安装qrcode库]]></description>
+            <content:encoded><![CDATA[<p>使用pip安装qrcode库</p>
+<p>打开命令提示符 执行:</p>
+<div class="language-shell codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-shell codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">pip install qrcode</span><br></span></code></pre></div></div>
+<h1>二、命令行使用</h1>
+<div class="language-shell codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-shell codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token plain">qr "Some text" &gt; test.png</span><br></span></code></pre></div></div>
+<p>注： 这里"Some text"字符串 是生成二维码的字符串，test.png是生成的图像名</p>
+<p>这个文件会存储在命令执行的当前目录下。如：<code>C:\Users\Lenovo\</code> 目录。</p>
+<h1>三、代码中引用和使用</h1>
+<div class="language-python codeBlockContainer_vfd4 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_b4VQ"><pre tabindex="0" class="prism-code language-python codeBlock_QCWj thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_IhIE"><span class="token-line" style="color:#393A34"><span class="token keyword" style="color:#00009f">import</span><span class="token plain"> qrcode</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">img </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> qrcode</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">make</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'白亚伦'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token builtin">type</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">img</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic"># qrcode.image.pil.PilImage</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">img</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">save</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"2025年9月16日162510.png"</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token triple-quoted-string string" style="color:#e3116c">"""</span><br></span><span class="token-line" style="color:#393A34"><span class="token triple-quoted-string string" style="color:#e3116c">1. qrcode模块可以从文本生成二维码</span><br></span><span class="token-line" style="color:#393A34"><span class="token triple-quoted-string string" style="color:#e3116c">2. 像这种第三方模块有別于Pyhon自带的模块，</span><br></span><span class="token-line" style="color:#393A34"><span class="token triple-quoted-string string" style="color:#e3116c">3.需要先安装才能在代码中引用和使用</span><br></span><span class="token-line" style="color:#393A34"><span class="token triple-quoted-string string" style="color:#e3116c">"""</span><br></span></code></pre></div></div>]]></content:encoded>
+            <category>Python</category>
         </item>
         <item>
             <title><![CDATA[初始练习]]></title>
