@@ -4,10 +4,16 @@
         <title>xyc996 Blog</title>
         <link>https://xyc996.github.io/blog</link>
         <description>xyc996 Blog</description>
-        <lastBuildDate>Thu, 29 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2025 09:21:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
+        <item>
+            <title><![CDATA[使用qrcode生成二维码]]></title>
+            <link>https://xyc996.github.io/blog/使用qrcode生成二维码</link>
+            <guid>https://xyc996.github.io/blog/使用qrcode生成二维码</guid>
+            <pubDate>Tue, 16 Sep 2025 09:21:18 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[初始练习]]></title>
             <link>https://xyc996.github.io/blog/greetings</link>
