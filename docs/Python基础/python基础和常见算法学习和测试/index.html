@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>豫考通 · 高中信息技术会考 Python 学习站</title>
+<meta name="description" content="围绕河南高中信息技术学业水平考试编程部分要求建设的新手友好学习站点：知识精讲、算法专题、刷题中心、模拟测试、错因诊所。">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  /* 恢复侧边栏折叠状态（在样式表后、页面绘制前执行，避免展开态闪烁） */
+  try { if (localStorage.getItem("ykt_sbCollapsed") === "1") document.documentElement.classList.add("sb-collapsed"); } catch (e) {}
+</script>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐍</text></svg>">
+</head>
+<body>
+
+<!-- ===== 顶栏 ===== -->
+<header class="topbar">
+  <a class="brand" href="#/home">
+    <span class="brand-logo">豫</span>
+    <span class="brand-text">
+      <b>豫考通</b>
+      <i>信息技术会考 · Python 学习站</i>
+    </span>
+  </a>
+
+  <button class="sb-collapse-btn" id="sbCollapse" data-action="toggle-sidebar" title="折叠侧边栏" aria-label="折叠侧边栏" aria-expanded="true">«</button>
+
+  <nav class="topnav" id="topnav">
+    <a href="#/home" data-nav="home">首页</a>
+    <a href="#/learn" data-nav="learn">知识精讲</a>
+    <a href="#/algo" data-nav="algo">算法专题</a>
+    <a href="#/quiz" data-nav="quiz">刷题中心</a>
+    <a href="#/exam" data-nav="exam">模拟测试</a>
+    <a href="#/clinic" data-nav="clinic">错因诊所</a>
+    <a href="#/cheat" data-nav="cheat">速查表</a>
+  </nav>
+
+  <div class="topbar-right">
+    <div class="search-box">
+      <input id="globalSearch" type="text" placeholder="搜知识点 / 题目…" autocomplete="off">
+      <span class="search-icon">⌕</span>
+    </div>
+    <a class="progress-pill" id="progressPill" href="#/progress" title="查看学习进度">
+      <div class="pp-ring"><span id="ppText">0%</span></div>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">☰</button>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- ===== 侧栏 ===== -->
+  <aside class="sidebar" id="sidebar"></aside>
+
+  <!-- ===== 主内容 ===== -->
+  <main class="content" id="app">
+    <div class="loading">正在加载学习站…</div>
+  </main>
+</div>
+
+<button class="sb-toggle" id="sbToggle" aria-label="打开目录">📑</button>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p><b>豫考通 · Python 会考学习站</b> — 从零基础到稳拿编程题，一步一个脚印。</p>
+    <p class="footer-note">本站为学习辅助工具，考试政策、题型与分值以河南省教育考试院当年公布为准。编程学习没有捷径，但有方法：多读、多写、多复盘。</p>
+    <p class="footer-note">愿你笔下有神，考场不慌 · 会考必过 💪</p>
+  </div>
+</footer>
+
+<script src="assets/js/highlight.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/data-quiz.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
